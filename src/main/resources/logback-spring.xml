@@ -20,7 +20,7 @@
         <file>/Users/dalin/G盘/bootshiro/driver/logs/SystemOut.log</file>
         <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <!-- 归档的日志文件的路径。%d{yyyy-MM-dd}指定日期格式，%i指定索引 -->
+            <!-- 归档的日志文件的路径。%d{yyyy-MM-dd}指定日期格式，%i指定索引 这里配置绝对路径-->
             <fileNamePattern>/Users/dalin/G盘/bootshiro/driver/logs/sys_bak/SystemOut-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
             <!-- 除按日志记录之外，还配置了日志文件不能超过2M，若超过2M，日志文件会以索引0开始 -->
             <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
