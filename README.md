@@ -1,4 +1,8 @@
-Spring Boot APP端提交api接口
+Spring Boot restful api 形式接口
+
+适用于APP后端接口服务
+
+前后端分离项目提供接口服务
 
  - 集成jpa（Java持久层API）ORM
 
