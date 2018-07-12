@@ -21,7 +21,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/** 根据渠道获取对应的token
+/** 框架通用的restful api接口生成token
  * Desc:
  * Author: dalin
  * Data: 2018/5/19
