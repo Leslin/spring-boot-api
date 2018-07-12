@@ -93,7 +93,7 @@ spring:
       password: xxxxx
     redis:
       # 服务器IP地址
-      host: 47.96.27.208
+      host: 127.0.0.1
       # 连接端口
       port: 6379
       # Redis服务器连接密码（默认为空）
